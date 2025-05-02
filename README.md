@@ -6,7 +6,6 @@ A simple **MERN** (MongoDB, Express, React, Node.js) application with:
 - Email confirmation via Gmail SMTP (app password)
 - Login with JWT (HttpOnly cookie)
 - “Sign in with Google” (OAuth2)
-- Post-signup “Connect your Gmail” screen
 
 ---
 
@@ -16,15 +15,6 @@ A simple **MERN** (MongoDB, Express, React, Node.js) application with:
 2. **MongoDB Atlas** account
 3. **Google Account** with 2‑Step Verification enabled
 4. **Google Cloud** project for OAuth credentials
-
----
-
-## Project Structure
-
-mern-auth-app/
-├── backend/ # Express + Mongoose + auth logic
-├── frontend/ # React app with Formik + React Router
-└── README.md # This file
 
 
 ---
@@ -80,6 +70,7 @@ You should see:
 MongoDB connected
 Server running on port 5000
 
+
 ---
 
 
@@ -93,6 +84,7 @@ npm install
 npm start
 Launches: http://localhost:3000
 
+
 ---
 
 ## Usage Flow
@@ -103,6 +95,8 @@ Login with email/password or Sign in with Google
 (First‑time Google) → auto‑create/confirm account
 Dashboard at /dashboard
 Optionally, visit /connect-gmail to link Gmail OAuth
+
+
 
 ---
 
