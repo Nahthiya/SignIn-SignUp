@@ -95,9 +95,6 @@ Launches: http://localhost:3000
 - Signup at /signup → fill Personal → Company → Credentials → submit
 - Confirm via email link → redirected to /login
 - Login with email/password or Sign in with Google
-- (First‑time Google) → auto‑create/confirm account
-- Dashboard at /dashboard
-- Optionally, visit /connect-gmail to link Gmail OAuth
 
 ---
 
