@@ -12,7 +12,7 @@ export default function Confirm() {
         alert('Email confirmed! You can now log in.');
         navigate('/login', { replace: true });
       })
-      .catch(() => alert('Invalid or expired token.'));
+      .catch(() => alert('This is an invalid token now, check if you have received your confirmation mail.'));
   }, [search, navigate]);
 
   return <p>Confirming your email…</p>;
