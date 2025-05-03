@@ -24,7 +24,7 @@ export default function Login() {
       </Formik>
 
       <p>—or—</p>
-      <a href="http://localhost:5000/api/auth/google">
+      <a href={`${process.env.REACT_APP_API_URL || 'http://localhost:5000'}/api/auth/google`}>
         <button>Sign in with Google</button>
       </a>
     </div>
